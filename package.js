@@ -16,10 +16,10 @@ Package.onUse(function (api) {
 	api.use("d3js:d3@3.5.8", 'client');
 	api.use('templating');
 
-	api.add_files('c3/c3.js', "client");
-	api.add_files('c3/c3.css', "client");
-	api.add_files('template.html', "client");
-	api.add_files('template.js', "client");
+	api.addFiles('c3/c3.js', "client");
+	api.addFiles('c3/c3.css', "client");
+	api.addFiles('template.html', "client");
+	api.addFiles('template.js', "client");
 
 	api.export('c3charts', "client");
 });
